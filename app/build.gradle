@@ -28,5 +28,7 @@ dependencies {
     //butterknife的sdk
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
-    implementation project(':marqueetextview')
+//    implementation project(':marqueetextview')
+
+    compile 'com.github.xuexiangjys:MarqueeTextView:1.0'
 }
