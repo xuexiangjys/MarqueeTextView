@@ -36,7 +36,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 //    implementation project(':marqueetextview')
 
-    compile 'com.github.xuexiangjys:MarqueeTextView:1.1'
+    compile 'com.github.xuexiangjys:MarqueeTextView:1.2'
 //    compile(name:'marqueetextview-release', ext:'aar')
 
 }
