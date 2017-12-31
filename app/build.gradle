@@ -16,6 +16,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
 }
 
 dependencies {
@@ -30,5 +36,7 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
 //    implementation project(':marqueetextview')
 
-    compile 'com.github.xuexiangjys:MarqueeTextView:1.0'
+    compile 'com.github.xuexiangjys:MarqueeTextView:1.1'
+//    compile(name:'marqueetextview-release', ext:'aar')
+
 }
