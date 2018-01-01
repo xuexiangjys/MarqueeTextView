@@ -73,5 +73,5 @@ Android滚动字幕，支持动态添加和删除，支持消息数据的更新
 
 属性名 | 字段 | 描述 | 默认值
 ----|------|----| ----
-mtv_isAutoFit | boolean  | 尺寸是否自适应  | false
-mtv_isAutoDisplay | boolean  | 控件是否自动显示与隐藏（根据显示数量）| false
+mtv_isAutoFit | boolean  | 尺寸是否自适应  | true
+mtv_isAutoDisplay | boolean  | 控件是否自动显示与隐藏（根据显示数量）| true
