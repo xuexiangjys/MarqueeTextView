@@ -3,6 +3,8 @@
 
     <!-- MarqueeTextView -->
     <declare-styleable name="MarqueeTextView">
+        <!--滚动速度， 默认为3-->
+        <attr name="mtv_speed" format="integer" />
         <!--尺寸是否自适应， 默认false-->
         <attr name="mtv_isAutoFit" format="boolean" />
         <!--控件是否自动显示与隐藏（根据显示数量）， 默认false-->

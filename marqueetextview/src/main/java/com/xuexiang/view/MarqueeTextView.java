@@ -92,6 +92,7 @@ public class MarqueeTextView extends AppCompatTextView {
 
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.MarqueeTextView);
         if (typedArray != null) {
+            mSpeed = typedArray.getInteger(R.styleable.MarqueeTextView_mtv_speed, mSpeed);
             mIsAutoFit = typedArray.getBoolean(R.styleable.MarqueeTextView_mtv_isAutoFit, true);
             mIsAutoDisplay = typedArray.getBoolean(R.styleable.MarqueeTextView_mtv_isAutoDisplay, true);
             typedArray.recycle();
@@ -357,7 +358,7 @@ public class MarqueeTextView extends AppCompatTextView {
     protected void onAttachedToWindow() {
         mStopMarquee = false;
         if (isShowDisplayEntityValid()) {
-            mHandler.sendEmptyMessageDelayed(REDRAW_TEXT, 2000);
+//            mHandler.sendEmptyMessageDelayed(REDRAW_TEXT, 2000);  //可能会导致程序第一次显示时2秒左右的时候加速
         } else {
             mIsRolling = false;
         }
