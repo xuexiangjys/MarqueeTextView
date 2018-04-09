@@ -72,7 +72,7 @@ Android滚动字幕，支持动态添加和删除，支持消息数据的更新
 #### 2.2.4、属性说明(以下属性全部可以通过xml文件配置和代码进行设置)
 
 属性名 | 字段 | 描述 | 默认值
-----|------|----| ----
+:-|:-:|:-:|:-:
 mtv_speed | integer  | 滚动速度，单位px  | 3px
 mtv_isAutoFit | boolean  | 尺寸是否自适应  | true
 mtv_isAutoDisplay | boolean  | 控件是否自动显示与隐藏（根据显示数量）| true
